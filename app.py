@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
-
+ 
 app = Flask(__name__)
 
 # Load trained model and feature column order
